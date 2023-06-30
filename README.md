@@ -1,7 +1,9 @@
 # OpenGL-template
 
 ## BASIC CODE TO DISPLAY A GREEN TRIANGLE ON A WINDOW
-'''
+```
+#include <iostream>
+#include <GLFW/glfw3.h>
 int main(void)
 {
     GLFWwindow* window;
@@ -46,4 +48,4 @@ int main(void)
     glfwTerminate();
     return 0;
 }
-'''
+```
